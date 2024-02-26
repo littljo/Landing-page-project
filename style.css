@@ -5,12 +5,17 @@ body{
     margin: 0;
     overflow: hidden;
     font-family: Roboto, sans-serif;
-    padding: 0;
+    padding: 0 ;
 }
+
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    align-items: center;
+    padding: 100px;
+}
+.header_content{
+    font-weight: 900;
 }
 .center{
     display: flex;
@@ -30,6 +35,7 @@ a{
 .hero{
     display: flex;
 
+
 }
 .title{
     font-size:48px;
@@ -37,6 +43,7 @@ a{
 }
 .title,
 .content,
+.header_content,
 a{
     color:#F9FAF8;
 }
@@ -47,4 +54,23 @@ a{
 .footer,
 .header{
     background-color:#1f2937 ;
+    padding: 0 200px;
+}
+.section_two{
+    text-align: center;
+    padding: 0 200px;
+}
+.imgbox{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+
+}
+.section_two> div{
+    border: 2px solid green;
 }
