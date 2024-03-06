@@ -41,7 +41,7 @@ a{
 .center{
     justify-content: center;
 }
-.text{
+.string{
     color: #ffff;
 }
 .main_text{
@@ -55,5 +55,41 @@ li,
 .footer{
 color: #e5e7eb;
 size: 18px;
+
+}
+.section_two{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+    color: #1f2937;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.imgbox{
+    display: flex;
+    justify-content: space-between;
+}
+.info>div{
+    text-wrap: wrap;
+}
+.section_three{
+background-color: #e5e7eb;
+display: flex;
+justify-content: center;
+align-items: center;
+
+height: 300px;
+
+}
+.content{
+    text-wrap: wrap;
+}
+.quote{
 
 }
